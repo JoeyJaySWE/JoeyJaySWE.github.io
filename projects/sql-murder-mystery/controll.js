@@ -1,4 +1,4 @@
-let arrest = document.getElementsById("arrest");
+let arrest = document.getElementById("arrest");
 let murder_name = document.getElementsByName("name");
 let murder_weapon = document.getElementsByName("weapon");
 let murder_location = document.getElementsByName("where");

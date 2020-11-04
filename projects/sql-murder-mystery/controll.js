@@ -1,10 +1,10 @@
 let arrest = document.getElementsById("arrest");
-let name = document.getElementsByName("name");
-let weapon = document.getElementsByName("weapon");
-let location = document.getElementsByName("where");
+let murder_name = document.getElementsByName("name");
+let murder_weapon = document.getElementsByName("weapon");
+let murder_location = document.getElementsByName("where");
 
 arrest.addEventListner("click", function(){
-    if(name === "Jack Skellington" && weapon === "Poison" && location === "NK"){
+    if(murder_name === "Jack Skellington" && murder_weapon === "Poison" && murder_location === "NK"){
         window.location.href = "correct.html";
     }
     else{

@@ -1,23 +1,81 @@
-body{
-    background-color:cornflowerblue;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
+body {
+  background: linear-gradient(
+      to bottom,
+      rgba(117, 114, 113, 0.8) 10%,
+      rgba(40, 49, 77, 0.8) 30%,
+      rgba(29, 35, 71, 0.8) 50%,
+      rgba(19, 25, 28, 0.8) 80%,
+      rgba(15, 14, 14, 0.8) 100%
+    ),
+    url(https://media.giphy.com/media/E1v4GJ5LkcPHa/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120vh;
+  font-family: "Arial";
+  color: rgb(245, 235, 235);
+  margin-top: 5rem;
 }
-p{
-    max-width: 700px;
+
+h1 {
+  font-family: "Griffy", cursive;
+  font-size: 60px;
+  font-weight: normal;
+  margin-bottom: 1rem;
 }
-ul{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    width: 250px;
+
+p {
+  max-width: 700px;
+  line-height: 1.7rem;
+  padding-bottom: 0.8rem;
 }
-li{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 250px;
+  padding-left: 0;
+}
+li {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  transition: 0.4s ease-in-out;
+}
+
+a:hover {
+  color: rgb(52, 126, 205);
+}
+
+button {
+  width: 150px;
+  margin-left: 3.3rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    rgba(115, 147, 223, 0.8) 10%,
+    rgba(63, 121, 182, 0.8) 30%,
+    rgba(69, 118, 191, 0.8) 50%
+  );
+
+  box-shadow: 2px 2px 8px 2px rgb(69, 67, 67);
+}
+
+button:hover {
+  box-shadow: none;
 }

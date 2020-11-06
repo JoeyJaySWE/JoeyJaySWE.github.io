@@ -6,9 +6,9 @@ let murder_location = document.getElementById("where").value;
 
 
 
-    if(str.toLowerCase(murder_name) === "jack skellington" &&
-    str.toLowerCase(murder_weapon) === "poison" &&
-    str.toLowerCase(murder_location) === "gothenburg"){
+    if(murder_name.toLowerCase() === "jack skellington" &&
+    murder_weapon.toLowerCase() === "poison" &&
+    murder_location.toLowerCase() === "gothenburg"){
         window.location.href = "correct.html";
         console.log("Right!");
     }
